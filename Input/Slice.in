@@ -1,0 +1,18 @@
+#--------3D grid info-------#
+101 0.02 0.0             #lat
+101 0.02 0.0             #lon
+101 2.00 200             #dep
+#--------2D grid info-------#
+101                      #hor
+101                      #ver
+#------Origin of slice------#
+00.00                    #lat
+01.00                    #lon
+200                      #dep
+#--------End of slice-------#
+02.00                    #lat
+01.00                    #lon
+0                        #dep
+#-------Files to read-------#
+../Data/ftr.dat          #rea
+../Data/ftp.dat          #wri

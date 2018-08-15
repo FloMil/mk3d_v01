@@ -1,0 +1,22 @@
+#!/usr/bin/bash
+#
+
+#---------
+# COMPILE
+#---------
+make mk3d
+make gendata
+make slice
+
+#----------
+# TRANSFER
+#----------
+make move
+#cp mk3d ../Run/.
+#cp gendata ../Run/.
+#cp slice ../Run/.
+
+#-------
+# CLEAN
+#-------
+make clean

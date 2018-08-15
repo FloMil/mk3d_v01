@@ -1,0 +1,7 @@
+!       Parameters
+      REAL,    PARAMETER :: pi   = acos(-1.)      ! pi
+      COMPLEX, PARAMETER :: yi   = (0,1)          ! Complex "i"
+      REAL,    PARAMETER :: ZERO = 0              ! Zero
+      REAL,    PARAMETER :: ONE  = 1              ! One
+      REAL,    PARAMETER :: dkm  = 111.320        ! Degree to km
+      REAL,    PARAMETER :: dtr  = acos(-1.)/180  ! Degree to radian

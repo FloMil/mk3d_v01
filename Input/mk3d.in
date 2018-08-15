@@ -1,0 +1,40 @@
+############################################################
+#                       Input files                        #
+############################################################
+#   Waveforms
+Waveforms.dat                 # PS  ~ RF Waveforms
+Waveforms.dat                 # PpP ~ RF Waveforms
+Waveforms.dat                 # PpS ~ RF Waveforms
+Waveforms.dat                 # PsS ~ RF Waveforms
+#   Sources & Receivers
+SrcRecLoc.dat                 # Source - Receiver info
+#   Correspondance
+Correspondances.dat           # Src-Rec correspondace file
+############################################################
+#                         Weights                          #
+############################################################
+#   PS  -  PpP  -  PpS  -  PsSv  -  PsSh
+    .5      1.      1.       1.       1.
+############################################################
+#                       Information                        #
+############################################################
+#   Size of box
+200                           # Depth range
+2                             # Latitude range
+2                             # Longitude range
+#   Origin of box
+200                           # Depth
+0                             # Latitude
+0                             # Longitude
+#   Size of propagation grid
+101                           # Vertical
+101 #161                           # Latitude
+101 #121                           # Longitude
+#   Size of migration grid
+100                           # Vertical
+100 #120                           # Latitude
+100 #80                            # Longitude
+#   Origin of migration grid
+1                             # Vertical
+1 #21                            # Latitude
+1 #21                            # Longitude

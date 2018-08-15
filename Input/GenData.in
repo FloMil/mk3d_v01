@@ -1,0 +1,39 @@
+###########################################################
+#                      Case scenario                      #
+###########################################################
+1                             # 1=synth, 2=real, 3=test
+###########################################################
+#                         Numbers                         #
+###########################################################
+21                            # Number of sources
+03                            # Origin of source circle
+360                           # Range of source circle
+65                            # Origin distance of sources
+00                            # Distance range (deg)
+50                            # Ref Depth of sources (km)
+00                            # Var Depth of sources
+21                            # Number of receivers
+2 00 6                        # Geom 1=sq, 2=lin, 3=rect
+1.0                           # Array size (deg)
+1  1                          # Array center (lat,lon)
+###########################################################
+#                          Files (out)                    #
+###########################################################
+geo                           # Synthetics
+Correspondances.dat           # Src-Rec corresp
+SrcRecLoc.dat                 # Src-Rec info
+Waveforms.dat                 # RF Waveforms
+###########################################################
+#                          Files (in)                     #
+###########################################################
+medusa_src                    # Sources
+medusa_rec                    # Receivers
+medusa_cor                    # Correspondances
+medusa_wfs_01                 # Waveforms
+Selection3DPKDM_pen.dat       # Quality Control
+###########################################################
+#                        Projection                       #
+###########################################################
+1                             # 1=normal, 2=projected
+200                           # Precision
+0000                          # FM3D numerotation
